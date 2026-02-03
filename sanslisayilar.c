@@ -172,5 +172,4 @@ do {
     printf("\nOyun sona erdi. Iyi gunler!\n\n");
     
     return 0; // Programı sonlandır
-
 }
