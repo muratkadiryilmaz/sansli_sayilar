@@ -1,6 +1,5 @@
+---
 
-
-```markdown
 # 🎲 Şanslı Sayılar Oyunu (C)
 
 📅 **Tarih:** 03.02.2026  
