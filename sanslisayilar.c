@@ -58,9 +58,9 @@ do {
 } while (tahminsayisi <= 0 || tahminsayisi > 25);
     
     // --- Tahmin girişleri ---
-    printf("----------------------------------\n");
     printf("%d tahmin hakkiniz bulunmaktadir.\n",tahminsayisi);
     printf("1-100 arasinda tahminde bulunun.\n");
+    printf("----------------------------------\n");
     int tahmin[tahminsayisi]; // Kullanıcının tahmin dizisi
 
     for(int i = 0; i < tahminsayisi; i++) {
@@ -173,3 +173,4 @@ do {
     
     return 0; // Programı sonlandır
 }
+
