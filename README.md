@@ -3,7 +3,7 @@
 📅 **Tarih:** 03.02.2026  
 🔗 **GitHub:** [github.com/muratkadiryilmaz/sansli-sayilar-oyunu](https://github.com/muratkadiryilmaz/sansli-sayilar-oyunu)  
 🔗 **LinkedIn:** https://www.linkedin.com/in/murat-kadir-yılmaz-148b8b387/  
-📄 **C dilinde yazılmış rastgele sayı tahmin oyunu projesi.**
+📄 **Kullanıcının rastgele seçilen 25 sayı arasından tahmin yaparak puan topladığı, C dilinde geliştirilmiş konsol tabanlı sayı oyunu.**
 
 ---
 
