@@ -7,7 +7,6 @@
     Program doğru tahminleri, sıralı şanslı sayıları ve 10 üzerinden puanı gösterir.  
     Oyun sonunda tekrar oynama veya çıkış seçeneği sunulur.
 */
-
 // --- Kütüphaneler:
 #include <stdio.h> // Giriş/çıkış fonksiyonları (printf, scanf)
 #include <stdlib.h> // rand(), srand() için
@@ -100,6 +99,7 @@ do {
             }
         }
     }
+    
     // --- Şanslı sayıları küçükten büyüğe sırala ---
     printf("----------------------------------\n");
     printf("Sansli sayilar (kucukten buyuge):\n");
@@ -113,6 +113,7 @@ do {
             }
         }
     }
+    
     // --- Şanslı sayıları yazdır ---
     for(int i = 0; i < 25; i++){
         printf("%d ",sanslisayilar[i]);
@@ -140,11 +141,12 @@ do {
                 }   
             }   
         }
+        
         // --- Puan hesaplama ---
         puan = ((float)sayac / tahminsayisi) * 10.0;
         printf("\nPuaniniz: %.1f / 10\n", puan);
     }
-
+        
     // --- Hiç doğru tahmin yoksa ---
     else{
         printf("Dogru tahmin bulunamadi.\n");
@@ -165,9 +167,10 @@ do {
         }
     } while (secim != 1 && secim != 2);
     
-} while (secim == 1);
+} while (secim == 1); // Oyunu tekrar başlat
 
     printf("\nOyun sona erdi. Iyi gunler!\n\n");
     
     return 0; // Programı sonlandır
+
 }
